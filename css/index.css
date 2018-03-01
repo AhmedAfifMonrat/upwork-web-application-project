@@ -1,0 +1,66 @@
+
+.section {
+    
+    background-color: white;
+}
+
+
+.section a {
+    background-color: #ECECEC;
+    border: 1px solid #999999;
+    display: block;
+    
+    
+}
+
+.section a:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #333333;
+}
+
+.section a img {
+    border: 1px solid #999999;
+}
+
+.section a.lightbox-enabled img {
+    border: 1px dotted #999999;
+}
+
+.section span.code {
+    font-family: "Courier New", Courier, monospace;
+   
+    font-size: 11px;
+    border-left: 1px solid #000;
+}
+
+.section .link {
+    font-size: 12px;
+    font-style: italic;
+   
+}
+
+.section .important {
+    text-decoration: underline;
+}
+
+.section .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.clear {
+    clear: left;
+}
+
+.section.header {
+    text-align: center;
+    font-size: 12px;
+  
+    border-top: none;
+}
+
+.section.footer {
+    text-align: center;
+    font-size: 12px;
+   
+}
